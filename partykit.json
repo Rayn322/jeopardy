@@ -1,6 +1,6 @@
 {
-  "$schema": "https://www.partykit.io/schema.json",
-  "name": "jeopardy-party",
-  "main": "party/index.ts",
-  "compatibilityDate": "2024-12-21"
+	"$schema": "https://www.partykit.io/schema.json",
+	"name": "jeopardy-party",
+	"main": "party/index.ts",
+	"compatibilityDate": "2024-12-21"
 }
