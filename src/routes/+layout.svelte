@@ -1,6 +1,11 @@
 <script lang="ts">
+	import { PUBLIC_CLERK_PUBLISHABLE_KEY } from '$env/static/public';
+	import { ClerkProvider } from 'svelte-clerk';
 	import '../app.css';
-	let { children } = $props();
+
+	const { children } = $props();
 </script>
 
-{@render children()}
+<ClerkProvider publishableKey={PUBLIC_CLERK_PUBLISHABLE_KEY}>
+	{@render children()}
+</ClerkProvider>
