@@ -1,0 +1,18 @@
+FRONTEND
+* upload board
+* start game
+* creates room (with random id)
+* generates qr code (because room id is probably insane)
+* opens new tab (/board)
+
+BACKEND
+* gets new connection from me (with board and auth token)
+* inits new room with board
+* players connect with names
+* host can start
+* host can edit points
+* players can hit buzzers
+
+new connections
+* players connect from buzzer site, added to array of player connections
+* new authed connections added to array of host connections
